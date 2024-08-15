@@ -5,13 +5,21 @@
 @layer base {
   :root {
     --background: 0, 0%, 96%;
-    --primary-text: 0, 0%, 27%;
-    --secundary-text: 0, 0%, 57%;
-    --section-title: 348, 62%, 47%;
-    --sub-title: 0, 0%, 9%;
-    --line-height: 1.5rem;
+    --foreground: 0, 0%, 27%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0, 0%, 100%;
+
+    --primary: 350, 69%, 45%;
+    --primary-foreground: 0 0% 100%;
+
     --radius: 0.5rem;
-    --card: 0, 0%, 100%;
+    --line-height: 1.5rem;
+
+    --input: 348, 62%, 47%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
   }
 }
 
